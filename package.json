@@ -1,0 +1,38 @@
+{
+  "name": "dynamic-form",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prettier": "prettier -c --write \"src/**/*\"",
+    "style-fix": "stylelint --fix \"src/**/*.less\" --syntax less",
+    "eslint-fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@dnd-kit/core": "^5.0.1",
+    "@reduxjs/toolkit": "^1.7.1",
+    "ahooks": "^3.1.8",
+    "antd": "^4.18.4",
+    "less": "^4.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@umijs/fabric": "^2.10.1",
+    "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "^8.7.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  },
+  "license": "MIT"
+}
